@@ -1,0 +1,291 @@
+ /* reset css */
+ *{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+ }
+
+ html{
+     font-family: Arial, Helvetica, sans-serif;
+ }
+ 
+/* 
+1. từ ngoài vào trong
+2. từ trên xuống dưới
+3. tổng quan đến chi tiết
+*/
+ /*
+ 1. vị trí 
+ 2.kích thước(width , heigh)
+ 3. màu sắc
+ 4. kiểu dáng( kiểu chữ )
+ */
+ #main{
+
+ }
+#header{
+     width: 100%;
+     height: 9%;
+     background-color:black;
+     position: fixed;
+     top: 0px;
+     left: 0px;
+     right: 0px;
+    z-index: 1;
+    
+ }
+ #navigation{
+     display: inline-block;
+ }
+#navigation li{
+    
+    display: inline-block;
+    line-height: 46px;
+    padding: 0px 12px;
+    position: relative;
+    
+}
+#navigation :hover{
+    background-color: #ccc;
+    color: #000;
+     
+}
+#navigation .nav-down{
+    font-size: 12px;
+}
+
+#navigation > li > a{
+    color: white;
+    text-transform: uppercase;
+}
+
+#navigation li a{
+    text-decoration: none;    
+}
+#navigation .subnav{
+   position: absolute;
+   background-color: white;
+   box-shadow: 0 0 10px rgb(0 , 0,0,0.3);
+    display: none;
+   top: 100%;
+   left: 0;
+}
+
+#navigation li:hover .subnav{
+    display: inline-block;
+}
+.subnav a{
+    color: black;
+
+}
+#header .search-button{
+    color: white;
+    font-size: 14px;
+    line-height: 46px;
+    
+    
+    
+}
+#header .search-btn:hover{
+    background-color: #f44336;
+    cursor: pointer ;
+
+}
+#header .search-btn{
+    float: right;
+    padding: 0px 21px;
+}
+
+#slider .image-input{
+    margin-top: 46px;
+    padding-top: 50%; /*50% chiều ngang của chính object*/
+    background-image: url('/w3_band/access/img/ád.jpg');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+    
+}
+#slider .text{
+  
+    color: rgba(255, 255, 255, 0.966);
+    position: absolute;
+    bottom: 47px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+   font-weight: 500;
+}
+#slider .text h3{
+    font-size: 20px;
+    margin-bottom: 30px;
+    letter-spacing: 10px;
+}
+#slider .text p{
+    
+    font-size: 15px;
+}
+
+#content{
+  
+}
+#content .content-section{
+    width: 800px;    
+    text-align: center;
+    padding: 64px 0px;
+    margin-left: auto;/*dùng để căn chính giữa */
+    margin-right: auto;
+    
+
+}
+#content .section-heading{
+    font-size: 30px;
+    text-align: center;/* căn bố cục của chữ */
+    margin-bottom: 32px;
+    font-weight: 500;/*chỉnh độ dày của chữ*/
+    letter-spacing: 10px/*điều chỉnh khoảng cách các từ*/
+    
+}
+#content .section-subheading{
+    text-align: center;
+    margin-bottom: 32px;
+    font-size: 15px;
+    font-style: italic; /* điều chỉnh kiểu dáng chữ */
+}
+#content .about-text{
+    font-size: 15px;
+    line-height: 1.6;
+}
+#content .list-member{
+    margin-top: 47px;
+    margin-bottom: 47px;
+    overflow: hidden;/*sau khi dùng float:left thì element sẽ 
+mất đi tính chất khối sử dụng overflow để lấy lại tính chất đó*/
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#content .name{
+    padding-bottom: 15px ;
+}
+#content .member{
+    float: left;
+    text-align: center;
+    width: 33.33%;
+    
+}
+#content .img-circle{
+    
+}
+/*tour section*/
+.tourdate{
+    background-color: #000;
+    color: white;
+}
+
+.ticket-list{
+    margin:  40px; 
+    background-color: white;
+    color: black;
+    list-style: none;
+}
+
+.ticket-list li{
+    color: #757575;
+    font-size: 15px;
+    padding: 11px 16px;
+    border-top: 1px solid #ddd;
+    text-align: justify;
+}
+.ticket-list .sold-out{
+    background-color: #f44336;
+    color: #fff;
+    padding: 3px 4px;
+   
+}
+
+
+.ticket-list .quantity{
+        background-color: black;
+        float: right;
+        width: 24px;
+        height: 24px;
+        border-radius:50%;
+        text-align: center;
+        line-height: 24px;
+        color: white;
+        
+}
+.sell-ticket p{
+  font-style: oblique;
+  
+}
+.sell-ticket h5 {
+  font-style: oblique;
+  font-weight: bolder;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 0px;
+
+}
+.sell-ticket button p{
+    font-style: normal;
+    padding: 10px 25px;
+   margin-bottom: 0px;
+}   
+.sell-ticket button{
+    margin-bottom: 20px;
+}
+.sell-ticket button :hover{
+    background: white;
+    color: black;
+}
+#content .content-section{
+    background: #ccc;
+}
+.content-section .col-md-4 p{
+    text-align: left;
+}
+.form-group button{
+
+}
+#submit{
+    float: right;
+    background: rgba(0, 0, 0, 0.774);
+    color: white;
+    padding: 10px 20px;
+    overflow: visible;
+}
+#submit:hover{
+    background: white;
+    color: black;
+}
+.tab-content h2{
+    text-align: left;
+    color: #757575;
+    padding-left: 5px;
+}
+.tab-content p{
+    text-align: left;
+    color: #757575;
+    padding-left: 5px;
+}
+
+#footer .footer-creadit{
+  
+    background: rgba(29, 28, 28, 0.932);
+}
+#footer .footer-creadit p{
+    color: aliceblue;
+    text-align: center;
+     padding-top: 2%;
+    padding-bottom: 4%;
+}
+.up-arrow .glyphicon{
+    margin-left: 50%;
+    margin-right: 50%;
+    padding-top: 5%;
+    transform: translateX(-50%);
+   color: white;
+}
