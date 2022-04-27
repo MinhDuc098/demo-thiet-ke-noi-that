@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <script src="javascript.js" ></script>
+</head>
+
+
+<body>
+    <div class="main" data-spy="Scroll" data-target = ".navbar-default " data-offset="50">
+         <div id="home">
+        <header>
+            <!-- <img src="img/b72a8bfb40c0307d22b3906df249fcc8.jpg" alt="" style="width: 100%;"> -->
+            <nav class= ""> 
+                <div class="" >
+                <div class="header">
+                    <a href="" class="" > dịch vụ nội thất renewel </a>
+                </div>
+
+                <ul class="navigation" >
+                    <li> <a href="#home" > Trang chủ</a> </li>
+                    <li> <a href="#service"  > dịch vụ </a> </li>
+                    <li> <a href="#project"  > dự án </a> </li>
+                    <li> <a href="#contact"  > liên hệ</a> </li>
+                    <li> <a href="#evaluate"  > đánh giá</a> </li>
+                    <li>  <a href="#c" class="call"> gọi ngay </a></li>
+                </ul>
+                </div>
+            </nav>
+
+
+            
+           
+        </header>
+        <!-- home -->
+
+       
+
+            <div class="text" style="text-align: center; padding: 30% 10%; color: rgb(12, 10, 10); text-transform: capitalize;">
+            <h1 style="font-weight: bolder; font-size: 350%;" >Dịch vụ nội thất Renewel</h1>
+            <h3 style="font-weight: bold;" >Cùng bạn tạo nên ngôi nhà trong mơ</h3>
+            </div>
+        </div>
+
+        <!-- service -->
+
+        <div class="body"> 
+
+        <div id="service" class="row container" >
+            <div class="col-md-6 photograph">
+            <img src="img/sercive.jpg" style="width: 100%;" alt="">
+            </div>
+
+            <div class="col-md-6 content">
+                <h3> Dịch vụ</h3>
+                <ul>
+                    <li>Sửa chữa nội thất toàn bộ</li>
+                    <li>Sửa chữa nhà bếp</li>
+                    <li>Sửa chữa phòng tắm</li>
+                    <li>Trang trí nội thất</li>
+                    <li>Lát sàn</li>
+                </ul>
+                <div>
+                    <button class="button" onclick="pleaseCall('XEM THÊM','HẾT RỒI',this)">
+                        XEM THÊM
+                    </button>
+                </div>
+            </div>
+         </div>
+
+         <div id="detail" class="row container" >
+            <div class="col-md-3 part" style=" color: white;">
+                <h4>Kinh nghiệm phong phú</h4>
+            </div>
+            
+            <div class="col-md-3 part" style="color: white;">
+                <h4>Đội ngũ
+                    chuyên nghiệp</h4>
+            </div>
+
+            <div class="col-md-3 part" style="color: white;">
+                <h4>
+                    Chu đáo,
+                    cẩn thận</h4>
+            </div>
+
+            <div class="col-md-3 part1" style="color: white;">
+                <h4>
+                    Độ bền cao
+                    & Bảo hành dài hạn</h4>
+            </div>
+       </div>
+
+       <div id="intro-service"  class="row container" style="margin-left: auto; margin-right: auto;  border-top: 2px solid rgba(224, 156, 156, 0.842) ;" >
+            <div class="col-md-6 content" >
+                <h1 style="font-weight: bolder; color: white; letter-spacing: 2px; padding-bottom: 20px; font-size: 50px;" >Giới thiệu</h1>
+                <h2 style="color:rgba(224, 156, 156, 0.842); padding-bottom: 30px; letter-spacing: normal;" > Dịch vụ nội thất Renewel </h2>
+                <h5 style="color: white;line-height:1.8em; font-size:16px;">Tôi là đoạn văn. Nhấp vào đây để thêm văn bản và chỉnh sửa. Dễ thôi. Chỉ cần nhấp vào “Chỉnh sửa văn bản” hoặc nhấp đúp để thêm nội dung và thay đổi phông chữ. Tôi là nơi tuyệt vời để bạn kể một câu chuyện và cho người dùng biết thêm về bạn.</h5>
+            </div>
+            <div class="col-md-6 photo" >
+                <img class="responsive" style="width: 100%;"  src="https://static.wixstatic.com/media/ea26fd_0e8eb61209a542fda3b36451a15530fc~mv2_d_6720_4480_s_4_2.jpg/v1/fill/w_849,h_814,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ea26fd_0e8eb61209a542fda3b36451a15530fc~mv2_d_6720_4480_s_4_2.jpg" alt="">
+            </div>
+       </div>
+
+       <div id="project" class="row container" >
+
+        <h1 style="margin-bottom: 5% ;font-weight: bolder; color: white; text-align: center; letter-spacing: 2px;" >Dự án nổi bật</h1>
+
+        <div class="col-md-8" style="padding-left: 0%; position: relative;">
+            <img src="img/main_banner.jpg" alt="" style="width: 100%;" onmouseover="content('living room','living-room')" onmouseout="disappear('living-room')">
+            <p class="living-room" ></p>
+           
+        </div>
+
+        <div class="col-md-4"  style="padding-right: 0%; position: relative;">
+
+            <img src="img/04239997be10e71149f6688a0b19206c.jpg" alt="" style="width: 100%;"  onmouseover="content('house in the moutain','house-on-moutain')" onmouseout="disappear('house-on-moutain')">
+            <p class="house-on-moutain" ></p>
+        </div>
+
+        <div>
+
+            <button class="button" onclick="pleaseCall( 'xem tất cả','Hết rồi làm gì còn gì nữa đâu mà xem',this)">
+               xem tất cả
+            </button>
+
+        </div>
+
+       </div>
+
+       <div id="evaluate" class="row container" style="margin-left: auto; margin-right: auto; margin-top: 7%;" >
+
+        <div class="col-md-3 header" >
+
+            <h1 style=" text-transform: capitalize ;font-weight: bolder; color: rgb(255, 255, 255);" > đánh giá </h1>
+
+        </div>
+
+        <div class="col-md-3 comment" style=" padding: 3.17% ;color: white; line-height:1.8em; font-size:16px;" >
+            <p">“Tôi là lời chứng thực. Nhấp để chỉnh sửa và thêm văn bản nói tốt về bạn và dịch vụ của bạn. Hãy để khách hàng đánh giá bạn và kể cho bạn bè của họ rằng bạn tuyệt vời thế nào”.</p>
+            <h2 style="color:rgba(255, 228, 196, 0.507); padding-bottom: 30px; letter-spacing: normal;" > Gia đình anh An</h2>
+
+        </div>
+
+        <div class="col-md-3 comment" style=" padding: 3% ;color: white; line-height:1.8em; font-size:16px;" >
+            <p>“Tôi là lời chứng thực. Nhấp để chỉnh sửa và thêm văn bản nói tốt về bạn và dịch vụ của bạn. Hãy để khách hàng đánh giá bạn và kể cho bạn bè của họ rằng bạn tuyệt vời thế nào”.</p>
+            <h2 style="color:rgba(255, 228, 196, 0.507); padding-bottom: 30px; letter-spacing: normal;" > Anh Toàn & chị Trang</h2>
+
+        </div>
+
+        <div class="col-md-3" style=" padding: 2% ;color: white; line-height:1.8em; font-size:16px;" >
+            <p>“Tôi là lời chứng thực. Nhấp để chỉnh sửa và thêm văn bản nói tốt về bạn và dịch vụ của bạn. Hãy để khách hàng đánh giá bạn và kể cho bạn bè của họ rằng bạn tuyệt vời thế nào”.</p>
+            <h2 style="color:rgba(255, 228, 196, 0.507); padding-bottom: 30px; letter-spacing: normal;" > Chị Vũ Huyền</h2>
+        </div>
+
+       </div>
+
+
+       <div id="contact" class="row container">
+           <div class="col-md-3 part1" >
+                <h1 style="margin-bottom: 30px; text-transform: capitalize; font-weight: bolder; font-size: 50px;">liên hệ</h1>
+                <p style="text-transform: capitalize;"><span class="glyphicon glyphicon-home" style="color: white;"></span> Đồng văn duy tiên hà nam</p>
+                <p> <span class="glyphicon glyphicon-envelope" style="color: white;" ></span> Kingofthedeath098@gmail.com </p>
+                <p> <span class="glyphicon glyphicon-phone" style="color: white;" ></span> 0814494436 </p>
+                <p>© 2023 bản quyền của Dịch vụ nội thất Renewel. Tự hào được tạo ra bằng <a style="text-decoration: underline; color:rgba(255, 228, 196, 0.507);" href="https://vi.wix.com/?utm_campaign=vir_created_with">Wix.com</a> </p>
+            </div>
+
+
+            <div class="col-md-5 part2" >
+
+                <div  style="display: inline-block; padding-right: 20px; " >
+                <label for="fname" style="color:rgba(255, 228, 196, 0.507);"> <p> tên</p></label> <br>
+                <input class="text" type="text" id="fname" required >
+                </div>
+
+                <div  style="display: inline-block;">
+                <label for="lname" style="color:rgba(255, 228, 196, 0.507) ;" > <p>Họ </p>  </label><br>
+                <input class="text" type="text" id="lname" required>
+                </div>  
+
+                <div class="form-group" >
+                    <label for="email" style="color:rgba(255, 228, 196, 0.507) ;"> <p> Email*</p></label> <br>
+                    <input class="text" style="width: 100%;" type="email" id="email" required >
+                </div>
+
+                <div class="" style="display: inline-block; padding-right: 20px; " >
+                    <label for="fname" style="color:rgba(255, 228, 196, 0.507);"> <p>  Điện thoại</p> </label> <br>
+                    <input class="text"  type="text" id="fname" required >
+                    </div>
+    
+                    <div class="" style="display: inline-block;">
+                    <label for="lname" style="color:rgba(255, 228, 196, 0.507) ;" > <p> Địa chỉ </p></label><br>
+                    <input class="text"  type="text" id="lname" required>
+                    </div>
+                
+                <div style="margin-top: 20px; background-color:none;" >
+                  <!--  <input type="submit" value="Gửi" style=" width: 100%; padding: 2%;">-->
+                    <button type="submit"  style=" width: 100%; padding: 2%;" onclick="submit()" >Gửi</button>
+                </div>
+
+            </div>
+
+
+            <div class="col-md-4 part3">
+
+                <a href="#home" style="color:rgba(255, 228, 196, 0.507) ;" >Trang chủ</a>
+                <br>
+               <a href="#service" style="color:rgba(255, 228, 196, 0.507) ;"  > dịch vụ </a> 
+               <br>
+               <a href="#project" style="color:rgba(255, 228, 196, 0.507) ;"  > dự án </a>
+               <br>
+               <a href="#contact" style="color:rgba(255, 228, 196, 0.507) ;"  > liên hệ</a>
+              <br>
+              <a href="#evaluate" style="color:rgba(255, 228, 196, 0.507) ;"  > đánh giá</a>  
+                <br>
+            <button style="background-color:rgba(255, 228, 196, 0.507) ; margin-top: 55px;" onclick="pleaseCall('gọi ngay','Số đây: 0814494436 gọi đi',this)" id="c" > gọi ngay </button> 
+            </div>
+       </div>
+
+
+
+
+        </div>
+        
+    </div>
+
+</body>

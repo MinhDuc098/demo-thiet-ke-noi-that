@@ -1,0 +1,261 @@
+
+.body{
+   padding-top:10% ;
+   background-color:  rgb(12 12 12 / 87%);   
+}
+#home{
+    background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    );
+
+    background-image: url(img/duc.jpg);
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: top center;
+}
+
+#home header .header a{
+    color: rgba(0, 0, 0, 0.925);
+    font-size: x-large;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding: 2%;
+    line-height: 50px;
+    display: inline-block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.header{
+    display: inline;
+}
+#home header .header a:hover{
+    text-decoration: none;
+    opacity: 0.5;
+}
+
+
+.navigation {
+    float: right;
+}
+.navigation li{
+    display: inline-block;
+    line-height: 50px;
+    padding: 20px 15px;
+    position: relative;
+}
+.navigation li a{
+    color: rgb(8, 8, 8);
+    font-size: 16px;
+    text-transform:  uppercase;
+    font-weight: bold;
+}
+.navigation li .call{
+        border: 2px solid black;
+        padding: 5px 12px;
+}
+.navigation li a:hover{
+    opacity: 0.6;
+    text-decoration: none;
+}
+
+
+#service{
+  
+   border: 2px solid rgba(224, 156, 156, 0.842);
+   color: white;
+    margin-left: auto;
+    margin-right: auto;
+   padding: 0%;
+}
+#service .photograph {
+    border-right: 2px solid rgba(224, 156, 156, 0.842);
+  /*  border-bottom: 2px solid rgba(224, 156, 156, 0.842);*/
+    padding: 0%;
+}
+#service .content{
+    padding-top: 10%;
+    padding-left: 8%;
+    padding-right: 0%;
+    
+}
+#service .content h3{
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 5%;
+}
+#service .content ul li{
+   font-size: 16px;
+    padding-bottom: 3%;
+
+}
+.content .button{
+    background-color: rgba(255, 228, 196, 0.507);
+    padding: 4% 16%;
+    color: rgba(0, 0, 0, 0.651);
+    align-items: center;
+    margin-top: 10%;
+}
+.content .button:hover{
+    opacity: 0.5;
+}
+
+#detail{
+    margin-left: auto;
+    margin-right: auto;
+    border-right: 2px solid rgba(224, 156, 156, 0.842);
+    border-left: 2px solid rgba(224, 156, 156, 0.842);
+}
+#detail .part{
+    text-align: center;
+    padding: 6%;
+    border-right: 2px solid rgba(224, 156, 156, 0.842);
+
+}
+#detail .part1{
+    text-align: center;
+    padding: 6%;
+}
+#intro-service{
+    padding: 0%;
+    border-right: 2px solid rgba(224, 156, 156, 0.842);
+    border-left: 2px solid rgba(224, 156, 156, 0.842);
+    border-bottom: 2px solid rgba(224, 156, 156, 0.842);
+
+}
+#intro-service .photo{
+    
+    padding: 0%;
+}
+#intro-service .content{
+    padding: 8% 8% 0% 8%;
+}
+
+#project{
+    margin-top: 7%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+#project .living-room, .house-on-moutain{
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translateX(50%);
+    color: white;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+#project img:hover{
+    opacity: 0.1;
+    cursor: pointer;
+}
+#project .button{
+   
+        background-color: rgba(255, 228, 196, 0.507);
+        color: rgba(0, 0, 0, 0.651);
+        margin-top: 7%;
+        padding: 1.5% 6% 1.5% 6%;
+        text-transform: uppercase;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        
+}
+#project .button:hover{
+        opacity: 0.5;
+    }
+
+#evaluate{
+    border-right: 2px solid rgba(224, 156, 156, 0.842);
+    border-left: 2px solid rgba(224, 156, 156, 0.842);
+    border-bottom: 2px solid rgba(224, 156, 156, 0.842);
+    border-top: 2px solid rgba(224, 156, 156, 0.842);
+    padding: 0%;
+}
+
+#evaluate .header{
+    background-color:rgba(255, 228, 196, 0.507);
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-left: 0%;
+    
+}
+#evaluate .comment{
+ border-right:2px solid rgba(224, 156, 156, 0.842);
+}
+
+#contact{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+    padding-bottom: 500px;
+}
+ #contact .part1{
+     
+     color: rgba(255, 228, 196, 0.507);
+    
+ }
+ #contact .part1 p{
+     font-size: 16px;
+     margin-bottom: 40px;
+     
+ }
+ #contact .part1 span{
+     font-size: 20px;
+     padding-right: 6px;
+     color:rgba(255, 228, 196, 0.507);
+ }
+
+ #contact .part2 {
+     
+    padding-left: 6%;
+   
+ }
+ #contact .part2 div{
+     margin-bottom: 20px;
+     font-size: 14px;
+     text-transform: capitalize;
+
+ }
+ #contact .part2 button{
+    background-color: rgba(255, 228, 196, 0.507);  
+    color: black;
+    font-size: 20px;
+ }
+
+#contact .part2 button:hover{
+    opacity: 0.5;
+}
+#contact .part2 input{
+    opacity: 1;
+    border-bottom:1px solid white;
+}
+#contact .part3{
+    padding-left: 20%;
+}
+#contact .part3 a{
+    display: inline-block;
+    margin-bottom: 8%;
+    font-size: 15px;
+    text-transform: capitalize;
+    
+}
+#contact .part3 a:hover{
+    text-decoration: none;
+    opacity: 0.5;
+}
+#contact .part3 button{
+    text-transform: uppercase;
+    padding: 10px 32px ;
+}
+#contact .part3 button:hover{
+    opacity: 0.5;
+}
